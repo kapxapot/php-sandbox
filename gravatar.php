@@ -15,4 +15,6 @@ $hash = md5($email);
 
 <p>The Gravatar for <? echo $email; ?> is:</p>
 
-<img src="https://www.gravatar.com/avatar/<? echo $hash; ?>?s=100" width="100" height="100" />
+<img src="https://www.gravatar.com/avatar/<? echo $hash; ?>?s=100&d=mp" width="100" height="100" style="border-radius: 50px;" />
+
+<p>Hash: <? echo $hash; ?></p>
