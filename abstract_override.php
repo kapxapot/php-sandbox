@@ -15,7 +15,7 @@ abstract class BaseUser
 
 class DerivedUser extends BaseUser
 {
-    public function getObj() : Base
+    public function getObj() : Derived // works since PHP 7.4
     {
         return new Derived();
     }
