@@ -19,3 +19,7 @@ var_dump([$a, $b]);
 [$a, $b] = [4, 5, 6];
 
 var_dump([$a, $b]);
+
+[, $b] = [1, 2];
+
+var_dump($b);
