@@ -28,7 +28,7 @@ class Extended extends Basic implements ExtendedInterface
 
 class BasicUsage
 {
-    protected BasicInterface $inner;
+    private BasicInterface $inner;
 
     public function __construct(BasicInterface $inner)
     {
@@ -45,7 +45,7 @@ class BasicUsage
 
 class ExtendedUsage extends BasicUsage
 {
-    protected ExtendedInterface $inner;
+    private ExtendedInterface $inner;
 
     public function __construct(ExtendedInterface $inner)
     {
