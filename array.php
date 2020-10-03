@@ -28,3 +28,13 @@ var_dump(
         ]
     )
 );
+
+echo '5. empty' . PHP_EOL;
+
+var_dump(
+    [
+        empty(null),
+        empty([]),
+        empty([1])
+    ]
+);
